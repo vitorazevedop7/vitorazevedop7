@@ -19,7 +19,7 @@
 ---
 
 ## 📌 Featured Projects
-- 🔒 [**ToDoSimple**](https://github.com/vitorazevedop7/ToDoSimple) → Full-stack task manager (Spring Boot + Next.js)
+- 🔒 [**ToDoSimple**](https://github.com/vitorazevedop7/todosimple-project) → Full-stack task manager (Spring Boot + Next.js)
 
 ---
 
