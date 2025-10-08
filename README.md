@@ -25,8 +25,8 @@
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vitorazevedop7&show_icons=true&theme=radical&cache_seconds=21600" height="150" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorazevedop7&layout=compact&theme=radical&cache_seconds=43200" height="150" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vitorazevedop7&show_icons=true&theme=radical&cache_seconds=3600&v=<!--STATS_VERSION-->0<!--/STATS_VERSION-->" height="150" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorazevedop7&layout=compact&theme=radical&cache_seconds=7200&v=<!--STATS_VERSION-->0<!--/STATS_VERSION-->" height="150" alt="Top Languages"/>
 </p>
 
 ---
