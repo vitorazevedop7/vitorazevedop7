@@ -2,14 +2,14 @@ name: Refresh README stats
 
 on:
   schedule:
-    - cron: "0 * * * *"   # roda a cada hora; ajuste se quiser
-  workflow_dispatch:      # permite rodar manualmente pela aba Actions
+    - cron: "0 * * * *"   # roda a cada hora (ajuste se quiser)
+  workflow_dispatch:      # permite rodar manualmente
   push:
     paths:
       - ".github/workflows/refresh-readme.yml"
 
 permissions:
-  contents: write  # necessário para commitar de volta no README
+  contents: write  # necessário para commitar no README
 
 jobs:
   refresh:
@@ -18,15 +18,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Bump STATS_VERSION token (timestamp UTC)
+      - name: Bump tokens (version & human-readable timestamp)
+        shell: bash
         run: |
           VERSION="$(date -u +%Y%m%d%H%M%S)"
+          HUMAN_UTC="$(date -u '+%d/%m/%Y %H:%M UTC')"
+
+          # Atualiza o token de versão para quebrar cache das imagens
           sed -i 's/<!--STATS_VERSION-->.*<!--\/STATS_VERSION-->/<!--STATS_VERSION-->'"$VERSION"'<!--\/STATS_VERSION-->/' README.md
+
+          # Atualiza a linha visível "Última atualização automática"
+          sed -i 's/<!--LAST_UPDATED-->.*<!--\/LAST_UPDATED-->/<!--LAST_UPDATED-->'"$HUMAN_UTC"'<!--\/LAST_UPDATED-->/' README.md
 
       - name: Commit & Push if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "[email protected]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --quiet && echo "No changes" || git commit -m "Auto-refresh stats (${VERSION})"
           git push
