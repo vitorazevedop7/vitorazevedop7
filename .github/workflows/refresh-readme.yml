@@ -1,0 +1,32 @@
+name: Refresh README stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # roda a cada hora; ajuste se quiser
+  workflow_dispatch:      # permite rodar manualmente pela aba Actions
+  push:
+    paths:
+      - ".github/workflows/refresh-readme.yml"
+
+permissions:
+  contents: write  # necessário para commitar de volta no README
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Bump STATS_VERSION token (timestamp UTC)
+        run: |
+          VERSION="$(date -u +%Y%m%d%H%M%S)"
+          sed -i 's/<!--STATS_VERSION-->.*<!--\/STATS_VERSION-->/<!--STATS_VERSION-->'"$VERSION"'<!--\/STATS_VERSION-->/' README.md
+
+      - name: Commit & Push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "[email protected]"
+          git add README.md
+          git diff --quiet && echo "No changes" || git commit -m "Auto-refresh stats (${VERSION})"
+          git push
