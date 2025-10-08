@@ -29,6 +29,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorazevedop7&layout=compact&theme=radical&cache_seconds=7200&v=<!--STATS_VERSION-->0<!--/STATS_VERSION-->" height="150" alt="Top Languages"/>
 </p>
 
+<p align="center">
+  <sub>📅 Última atualização automática: <!--LAST_UPDATED-->aguardando primeira execução<!--/LAST_UPDATED--></sub>
+</p>
+
 ---
 
 ## 🎯 Mission
