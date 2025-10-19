@@ -25,10 +25,13 @@ jobs:
           HUMAN_UTC="$(date -u '+%d/%m/%Y %H:%M UTC')"
 
           # Atualiza o token de versão para quebrar cache das imagens
-          sed -i 's/<!--STATS_VERSION-->.*<!--\/STATS_VERSION-->/<!--STATS_VERSION-->'"$VERSION"'<!--\/STATS_VERSION-->/' README.md
+          sed -i "s|<!--STATS_VERSION-->.*<!--/STATS_VERSION-->|<!--STATS_VERSION-->${VERSION}<!--/STATS_VERSION-->|" README.md
 
           # Atualiza a linha visível "Última atualização automática"
-          sed -i 's/<!--LAST_UPDATED-->.*<!--\/LAST_UPDATED-->/<!--LAST_UPDATED-->'"$HUMAN_UTC"'<!--\/LAST_UPDATED-->/' README.md
+          sed -i "s|<!--LAST_UPDATED-->.*<!--/LAST_UPDATED-->|<!--LAST_UPDATED-->${HUMAN_UTC}<!--/LAST_UPDATED-->|" README.md
+
+          # Torna a versão disponível nos próximos passos
+          echo "VERSION=${VERSION}" >> "$GITHUB_ENV"
 
       - name: Commit & Push if changed
         run: |
