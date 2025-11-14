@@ -25,12 +25,23 @@
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vitorazevedop7&show_icons=true&theme=radical&cache_seconds=3600&v=<!--STATS_VERSION-->0<!--/STATS_VERSION-->" height="150" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorazevedop7&layout=compact&theme=radical&cache_seconds=7200&v=<!--STATS_VERSION-->0<!--/STATS_VERSION-->" height="150" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vitorazevedop7&show_icons=true&theme=radical&cache_seconds=3600&v=<!--STATS_VERSION-->
+20251113144256
+<!--/STATS_VERSION-->" height="150" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorazevedop7&layout=compact&theme=radical&cache_seconds=7200&v=<!--STATS_VERSION-->
+20251113144256
+<!--/STATS_VERSION-->" height="150" alt="Top Languages"/>
 </p>
 
+## 📝 Commits Recentes
+<!--RECENT_COMMITS-->
+- _Nenhum commit público recente disponível no momento._
+<!--/RECENT_COMMITS-->
+
 <p align="center">
-  <sub>📅 Última atualização automática: <!--LAST_UPDATED-->aguardando primeira execução<!--/LAST_UPDATED--></sub>
+  <sub>📅 Última atualização automática: <!--LAST_UPDATED-->
+13/11/2025 14:42 UTC
+<!--/LAST_UPDATED--></sub>
 </p>
 
 ---
