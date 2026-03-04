@@ -1,21 +1,14 @@
-<div align="center">
-
+```
 ██╗   ██╗██╗████████╗ ██████╗ ██████╗
 ██║   ██║██║╚══██╔══╝██╔═══██╗██╔══██╗
 ██║   ██║██║   ██║   ██║   ██║██████╔╝
 ╚██╗ ██╔╝██║   ██║   ██║   ██║██╔══██╗
  ╚████╔╝ ██║   ██║   ╚██████╔╝██║  ██║
   ╚═══╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+```
 
- █████╗ ███████╗███████╗██╗   ██╗███████╗██████╗  ██████╗
-██╔══██╗╚════██║██╔════╝██║   ██║██╔════╝██╔══██╗██╔═══██╗
-███████║    ██╔╝█████╗  ██║   ██║█████╗  ██║  ██║██║   ██║
-██╔══██║   ██╔╝ ██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║  ██║██║   ██║
-██║  ██║   ██║  ███████╗ ╚████╔╝ ███████╗██████╔╝╚██████╔╝
-╚═╝  ╚═╝   ╚═╝  ╚══════╝  ╚═══╝  ╚══════╝╚═════╝  ╚═════╝
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Software+Engineering+%40+PUC+Minas;Full-Stack+Developer;Java+%2B+Spring+Boot+%7C+Next.js+%2B+React;Building+with+purpose+%26+real+impact+%F0%9F%9A%80" alt="Typing SVG" />
-
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Software+Engineering+%40+PUC+Minas;Full-Stack+Developer" alt="Typing SVG" />
 </div>
 
 ---
@@ -28,9 +21,7 @@
 name:     Vitor Azevedo
 role:     Software Engineering Student
 school:   PUC Minas — Belo Horizonte, BR
-focus:    Full-Stack Development
-mindset:  "Technology solves problems."
-status:   Building & learning every day 🟢
+focus:    Full-Stack Development, Desinging 
 ```
 
 <br clear="right"/>
@@ -70,7 +61,6 @@ status:   Building & learning every day 🟢
 |--------|-------|-------------|
 | 🔒 [**ToDoSimple**](https://github.com/vitorazevedop7/todosimple-project) | Spring Boot + Next.js | Full-stack task manager with auth |
 
-> _More projects coming soon..._
 
 ---
 
