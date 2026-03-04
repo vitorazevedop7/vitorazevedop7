@@ -23,7 +23,7 @@
 name:     Vitor Azevedo
 role:     Software Engineer
 school:   PUC Minas — Belo Horizonte, BR
-focus:    Full-Stack Development, Designing 
+focus:    Full-Stack Development, Web Designing 
 ```
 
 <br clear="right"/>
