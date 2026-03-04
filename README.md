@@ -21,7 +21,7 @@
 
 ```yaml
 name:     Vitor Azevedo
-role:     Software Engineering Student
+role:     Software Engineer
 school:   PUC Minas — Belo Horizonte, BR
 focus:    Full-Stack Development, Desinging 
 ```
