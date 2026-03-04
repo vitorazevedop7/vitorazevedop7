@@ -24,6 +24,7 @@ name:     Vitor Azevedo
 role:     Software Engineer
 school:   PUC Minas — Belo Horizonte, BR
 focus:    Full-Stack Development, Web Designing 
+goal: Remote Software Engineer
 ```
 
 <br clear="right"/>
@@ -63,19 +64,6 @@ focus:    Full-Stack Development, Web Designing
 |--------|-------|-------------|
 | 🔒 [**ToDoSimple**](https://github.com/vitorazevedop7/todosimple-project) | Spring Boot + Next.js | Full-stack task manager with auth |
 
-
----
-
-### `> stats --github`
-
-<div align="center">
-  <img height="180em" src="https://streak-stats.demolab.com?user=vitorazevedop7&theme=matrix&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly&fire=00FF41&ring=00FF41&currStreakLabel=00FF41"/>
-</div>
-
-<div align="center">
-  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vitorazevedop7&theme=github_dark"/>
-  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vitorazevedop7&theme=github_dark"/>
-</div>
 
 ---
 
