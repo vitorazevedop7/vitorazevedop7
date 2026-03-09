@@ -15,7 +15,7 @@
 
 ---
 
-<img align="center" width="1000" height="300"  src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" />
+
 
 ### `> whoami`
 
